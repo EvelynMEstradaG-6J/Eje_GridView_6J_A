@@ -14,6 +14,6 @@ class TelmexApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: MyHomePage());
+        home: PagInicial());
   }
 } //CLASE 1: Widget sin estado.

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key? key}) : super(key: key);
+class PagInicial extends StatefulWidget {
+  PagInicial({Key? key}) : super(key: key);
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _PagInicialState createState() => _PagInicialState();
 } //CLASE 2: Widget con estado.
 
-class _MyHomePageState extends State<MyHomePage> {
+class _PagInicialState extends State<PagInicial> {
   List<String> images = [
     "assets/images/Telmex1.png",
     "assets/images/Telmex2.png",
