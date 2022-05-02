@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class PagInicial extends StatefulWidget {
-  PagInicial({Key? key}) : super(key: key);
+  const PagInicial({Key? key}) : super(key: key);
   @override
   _PagInicialState createState() => _PagInicialState();
 } //CLASE 2: Widget con estado.
